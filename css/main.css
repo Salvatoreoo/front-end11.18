@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+a{
+    color: rgb(175, 167, 163);
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav{
+    background: url(../img/banner_bg04.jpg);
+    width: 100%;
+    height: 600px;
+}
+.nav-logo{
+    width: 15%;
+    height: 50px;
+    position: relative;
+    float: left;
+    left: 3%;
+}
+.nav-menu{
+    width: 40%;
+
+    margin: 0 2% 0 2%;
+    
+    float: left;
+}
+.nav-menu ul li{
+    float: left;
+    margin: 2%;
+    text-align: center;
+    list-style: none;
+    
+}
+.login{
+    width: 20%;
+    float: right;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font: 5px;
+    
+}
+.login-but{
+    position: relative;
+    float: right;
+    border: white solid 1px; 
+    border-radius: 15%;
+    top: -20px;
+    left: -20%;
+}
+.login-before{
+    margin: 0;
+}
+.login-but :hover{
+    background: rgb(50, 50, 207);
+     color:white;
+}
+.nav-menu :hover{
+    color: aliceblue;
+}
+.login-before{
+    color: aliceblue;
+}
+.img-pic :hover{
+    margin: 10% 0 0 10%;
+    transition: 1s;
+
+}
+.second-part{
+    width: 100%;
+    height: 100px;
+    border: 0;
+    margin-top: 20px;
+   text-align: center;
+}
+.sp{
+    
+    width: 20%;
+  position: relative;
+    height: 150px;
+    float: left;
+    left: 10%;
+}
+.third-part{
+    width: 100%;
+    text-align: center;
+    height: 380px;
+    background: rgba(146, 155, 143, 0.342);
+}
+.tp1{
+    width: 630px;
+    text-align: center; 
+    height: 300px;
+    position: relative;
+    left: 30%;
+    font: rgb(110, 95, 95) 4px; 
+}
+.tp11{
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height:150px;
+    border: solid 1px black;
+    float: left;
+    text-align: left -5px;
+}
+.vv{
+    position: relative;
+    left: -40%;
+    color: rgb(144, 158, 170);
+
+}
+.four-part{
+    width: 100%;
+    text-align: center;
+    height: 230px;
+    background: rgba(189, 174, 147, 0.425);
+}
+.fp1{
+    width: 100%;
+    text-align: center; 
+    height: 190px;
+    position: relative;
+    left: 15%;
+    
+    font: rgb(110, 95, 95) 4px; 
+}
+.fp11{
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    height:185px;
+    border: solid 1px black;
+    float: left;
+  
+}
+
+.vvv{
+    position: relative;
+    left: 4%;
+    color: rgb(144, 158, 170);
+
+}
+.bb{
+    background: rgb(64, 131, 219);
+    color: white;
+}
+.bb :hover{
+    background: rgba(53, 53, 153, 0.555);
+}
+.function{
+    height: 708px;
+    width: 100%;
+    background-image: url('../img/13.png');
+}
+.function-top{
+    width: 100%;
+    height: 26.5%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 4%;
+}
+.function-top h1{
+    color: #fff;
+    font-weight: 500;
+}
+.function-top hr{
+    width: 30px;
+    height: 2px;
+    border: none;
+    background-color: #57a3f1;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);  
+    margin-top: 10px;
+}
+.function-bottom{
+    height: 60%;
+    width: 78%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+.function-bottom-t{
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid #585a61;
+}
+.function-bottom-one{
+    width: 25%;
+    height: 200%;
+    border: 1px solid #585a61;
+    float: left;
+    box-sizing: border-box;
+}
+.function-bottom-one-logo{
+    height: 211px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.function-bottom-one-logo img{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.function-bottom-one-world{
+    height: 211px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(88, 87, 87, 0.5);
+}
+.function-bottom-one:hover{
+    cursor: pointer;
+    margin-top: -211px;
+    transition: 0.5s;
+}
+.function-bottom-one-world p{
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+.five-part{
+    width: 100%;
+    height: 700px;
+    background: url(../img/2.jpg)
+}
+.pot{
+    width: 10px;
+    height: 10px;
+    border: solid 1px rgb(24, 117, 179);
+    background: #57a3f1;
+    border-radius: 100%;
+     opacity: 1;
+     position: relative;
+     left: 50%;
+     top: 30%;
+     
+}
+.text{
+    width: 50px;
+    height: 50px;
+    float: left;
+    opacity: 0.5;
+}
+.pot :hover {
+    
+    width: 20px;
+    height: 20px;  
+}
+.QR{
+    position: relative;
+    top: 60%;
+    left: 30%;
+}
+.lst{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    background: #585a61;
+
+}
+.sp :hover{
+    position: relative;
+    top: 10px;
+}
